@@ -1,0 +1,33 @@
+# Lean and Lake build outputs
+.lake/
+lean/.lake/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local reproduction output
+build/
+results/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Keep promoted logs already committed under logs/ and lean_audit/
+!logs/*.log
+!lean_audit/*.log
