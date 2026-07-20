@@ -1,0 +1,21 @@
+Command-equivalent scan:
+grep -RInE --include='*.lean' '\b(sorry|admit|axiom|unsafe|native_decide|sorryAx)\b' OBS || true
+
+Authoritative project scan invoked:
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/audit_source.ps1
+
+Result:
+PASS: scanned 29 project Lean source files; no forbidden proof-bypass tokens.
+
+Manual classification:
+No matches were produced, so there were no comments, theorem names, or source
+declarations requiring reclassification.
+
+Proof-bypass count: 0
+
+Closed-interface scan invoked:
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/audit_closed_signature.ps1
+
+Result:
+PASS: 5 closed public theorem signatures and the generator structure contain no prior bridge assumptions.
+

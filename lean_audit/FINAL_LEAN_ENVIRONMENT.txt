@@ -1,0 +1,18 @@
+OS: Ubuntu 24.04.4 LTS x86_64 (Linux 6.6.114.1-microsoft-standard-WSL2)
+Lean: 4.29.0
+Lean commit: 98dc76e3c0a9b856c9b98726b713fb04fab16740
+Lake: 5.0.0-src+98dc76e
+Elan: 4.2.1 (3d5138e15 2026-03-18)
+Toolchain: leanprover/lean4:v4.29.0
+Mathlib revision: 8a178386ffc0f5fef0b77738bb5449d50efeea95
+Project: OBSMechanismLean_v0.2_core_closed
+Project Git status: not applicable; project directory is not a Git worktree
+Build command: bash build_wsl.sh
+Clean action: remove only the root project's .lake/build, then run lake build
+Dependency policy: pinned dependency build caches retained
+Build exit status: 0
+Build jobs: 8275
+Build start (filesystem observed): 2026-07-20T12:31:39.822-07:00
+Build finish: 2026-07-20T12:45:16.507-07:00
+Time zone: America/Los_Angeles (UTC-07:00)
+
