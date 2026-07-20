@@ -1,0 +1,15 @@
+Proof-bypass source audit:
+PASS: scanned 29 project Lean source files; no forbidden proof-bypass tokens.
+
+Forbidden tokens scanned:
+sorry, admit, axiom, unsafe, native_decide, sorryAx
+
+Closed-interface audit:
+PASS: 5 closed public theorem signatures and the generator structure contain no prior bridge assumptions.
+
+Former bridge assumptions excluded:
+hthermo, hBrep, hDrep, hKrep, hKH, hlocal, and conclusion-as-input B^2 < D*H
+
+Unused-assumption/linter evidence:
+The clean 8,275-job umbrella build emitted no warnings and no errors.
+See CLEAN_BUILD_TRANSCRIPT.txt.
