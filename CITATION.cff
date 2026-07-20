@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the paper for the scientific result and this software release for the reproducibility materials."
+title: "Reproducibility Companion for a Certified Counterexample to the Dissipation–Coherence Conjecture"
+type: software
+authors:
+  - family-names: Jason
+    given-names: Shawn Kevin
+    orcid: "https://orcid.org/0009-0003-9208-1556"
+version: 1.0.0
+date-released: 2026-07-20
+license: MIT
+abstract: >-
+  Exact numerical certificates, causal spectral analysis, Lean 4 formalization,
+  independent clean-build audit, manuscript source, and cryptographic manifests
+  supporting a certified 12-state counterexample to the unrestricted
+  Oberreiter–Barato–Seifert dissipation–coherence conjecture.
+keywords:
+  - stochastic thermodynamics
+  - continuous-time Markov chains
+  - dissipation-coherence conjecture
+  - spectral coherence
+  - entropy production
+  - Lean 4
+  - computer-assisted proof
+  - reproducible research
+preferred-citation:
+  type: article
+  title: "Current-Weighted Localization and Dynamic Spectral Spacing in a Certified Counterexample to the Dissipation–Coherence Conjecture"
+  authors:
+    - family-names: Jason
+      given-names: Shawn Kevin
+      orcid: "https://orcid.org/0009-0003-9208-1556"
+  year: 2026
