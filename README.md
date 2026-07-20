@@ -4,6 +4,9 @@ This repository is the reproducibility companion for:
 
 > Shawn Kevin Jason (2026), *Current-Weighted Localization and Dynamic Spectral Spacing in a Certified Counterexample to the Dissipation–Coherence Conjecture*.
 
+**Paper DOI:** [10.5281/zenodo.21461547](https://doi.org/10.5281/zenodo.21461547)  
+**Public repository:** [github.com/shawnjason/OBS-Dissipation-Coherence-Counterexample](https://github.com/shawnjason/OBS-Dissipation-Coherence-Counterexample)
+
 The paper gives an exact 12-state, 13-edge, cycle-rank-two continuous-time Markov generator whose unique visible spectral-leading oscillatory mode satisfies
 
 \[
@@ -119,7 +122,7 @@ Lean does not verify the witness-specific spectrum, logarithmic interval evaluat
 
 ## Citation
 
-Use the paper as the preferred scientific citation. GitHub citation metadata are provided in `CITATION.cff`. The archived software DOI will be added after the first GitHub release is deposited by Zenodo.
+Use the paper DOI, [10.5281/zenodo.21461547](https://doi.org/10.5281/zenodo.21461547), as the preferred scientific citation. GitHub citation metadata are provided in `CITATION.cff`. The first tagged GitHub release will be archived by Zenodo as the versioned software record.
 
 ## Licensing
 

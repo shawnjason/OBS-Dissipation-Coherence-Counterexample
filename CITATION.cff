@@ -9,6 +9,7 @@ authors:
 version: 1.0.0
 date-released: 2026-07-20
 license: MIT
+repository-code: "https://github.com/shawnjason/OBS-Dissipation-Coherence-Counterexample"
 abstract: >-
   Exact numerical certificates, causal spectral analysis, Lean 4 formalization,
   independent clean-build audit, manuscript source, and cryptographic manifests
@@ -31,3 +32,5 @@ preferred-citation:
       given-names: Shawn Kevin
       orcid: "https://orcid.org/0009-0003-9208-1556"
   year: 2026
+  doi: "10.5281/zenodo.21461547"
+  url: "https://doi.org/10.5281/zenodo.21461547"

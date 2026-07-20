@@ -2,6 +2,8 @@
 
 Initial archival release supporting Shawn Kevin Jason (2026), *Current-Weighted Localization and Dynamic Spectral Spacing in a Certified Counterexample to the Dissipation–Coherence Conjecture*.
 
+Paper DOI: https://doi.org/10.5281/zenodo.21461547
+
 ## Included
 
 - exact 12-state, 13-edge theta-graph witness;
