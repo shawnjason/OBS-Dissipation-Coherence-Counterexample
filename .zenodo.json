@@ -1,0 +1,35 @@
+{
+  "title": "Reproducibility Companion for Current-Weighted Localization and Dynamic Spectral Spacing in a Certified Counterexample to the Dissipation–Coherence Conjecture",
+  "upload_type": "software",
+  "description": "Exact numerical certificates, causal spectral analysis, Lean 4 formalization, independent clean-build audit, manuscript source, and cryptographic manifests supporting a certified 12-state counterexample to the unrestricted Oberreiter–Barato–Seifert dissipation–coherence conjecture. The symbolic theorem layer is machine-checked in Lean 4; witness-specific spectrum and causal-window claims are supported by exact and validated numerical certificates.",
+  "creators": [
+    {
+      "name": "Jason, Shawn Kevin",
+      "orcid": "0009-0003-9208-1556"
+    }
+  ],
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "stochastic thermodynamics",
+    "continuous-time Markov chains",
+    "dissipation-coherence conjecture",
+    "Markov oscillators",
+    "entropy production",
+    "spectral coherence",
+    "eigenmode localization",
+    "non-Hermitian spectral theory",
+    "computer-assisted proof",
+    "Lean 4",
+    "reproducible research"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.21461547",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}
